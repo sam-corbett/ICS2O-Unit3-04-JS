@@ -23,9 +23,13 @@ function convertFahrenheit() {
   const fahrenheit = parseFloat(document.getElementById("fahrenheit").value)
 
   //process
-  const celcius = (fahrenheit - 32) * (5/9)
+  const celcius = (fahrenheit - 32) * (5 / 9)
 
   //output
   document.getElementById("calculateTEMP").innerHTML =
-    "If your temperature is in " + fahrenheit.toFixed(1) + "°F, the converted temperature should be at " + celcius.toFixed(1) + "°C."
+    "If your temperature is in " +
+    fahrenheit.toFixed(1) +
+    "°F, the converted temperature should be at " +
+    celcius.toFixed(1) +
+    "°C."
 }
