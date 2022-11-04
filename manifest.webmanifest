@@ -1,7 +1,7 @@
 {
   "name": "Sam Corbett's App",
   "short_name": "Sam's App",
-  "description": "Github Page for Sam's App",
+  "description": "Temperature Converter",
   "scope": "/ICS2O-Unit3-04-JS/",
   "start_url": "/ICS2O-Unit3-04-JS/",
   "background_color": "#ffffff",
