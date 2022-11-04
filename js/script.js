@@ -16,20 +16,20 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function displays an alert.
+ * This function calculates fahrenheit to celsius
  */
 function convertFahrenheit() {
   //input
   const fahrenheit = parseFloat(document.getElementById("fahrenheit").value)
 
   //process
-  const celcius = (fahrenheit - 32) * (5 / 9)
+  const celsius = (fahrenheit - 32) * (5 / 9)
 
   //output
   document.getElementById("calculateTEMP").innerHTML =
     "If your temperature is in " +
     fahrenheit.toFixed(1) +
     "°F, the converted temperature should be at " +
-    celcius.toFixed(1) +
+    celsius.toFixed(1) +
     "°C."
 }
